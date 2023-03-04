@@ -1,0 +1,435 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.logo img{
+    width: 60px;
+}
+.my-nav {
+    background-color: #0065c3;
+position: fixed;
+width: 100%;
+z-index: 1;
+}
+
+.my-ul li a {
+    color: white !important;
+    font-size: smaller !important;
+    font-weight: bold !important;
+}
+
+.my-btn {
+    color: white !important;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: smaller !important;
+    font-weight: bold !important;
+}
+
+.my-btn:hover {
+    background-color: white !important;
+    border: 2px solid white !important;
+    color: #0065c3 !important;
+}
+
+.bg {
+    background-color: black !important;
+}
+
+.flxs-1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.flxs-1 img {
+
+    width: 130%;
+}
+
+.improve-img {
+    position: absolute;
+    top: 100px;
+    left: 360px;
+
+}
+
+.improve-img img {
+    width: 200px;
+}
+
+
+.flxs-2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flxs-2 img {
+    width: 70%;
+    padding-top: 20px !important;
+}
+
+.bg-2 {
+    background-image: url(./img/Desktop_Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yt-xls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.yt-xls div {
+    margin-right: 10px;
+
+}
+.yt-xls p {
+    color: white;
+    font-size: x-small;
+    font-weight: 500;
+    padding-bottom: 10px;
+
+}
+.bg-3 {
+    background-image: url(./img/PEP_BWP_D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flxs-3 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.flxs-3 img {
+
+    width: 70%;
+}
+
+.flxs-4 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flxs-4 img {
+    width: 70%;
+    padding-top: 20px !important;
+}
+
+
+
+.flxs-5 {
+    background-color: #0065c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.flxs-5 img {
+
+    width: 70%;
+}
+
+.flxs-6 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flxs-6 img {
+    width: 70%;
+    padding-top: 20px !important;
+}
+
+
+.new-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-img img {
+    width: 100%;
+}
+
+.new-img p {
+    background-color: #1437bf;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.vdo {
+    margin-bottom: -7px;
+    padding-bottom: -7px;
+}
+
+.vdo video {
+    width: 100%;
+
+}
+
+.bg-4 {
+    background-image: url(./img/twil-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.flxs-7 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flxs-7 img {
+
+    width: 100%;
+}
+
+
+.flxs-8 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flxs-8 img {
+
+    width: 70%;
+}
+.bg-6 {
+    background-image: url(./img/04_Generation_BG_D_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hd {
+    padding: 70px;
+}
+.hd h1{
+font-size: 50px;
+font-weight: bolder;
+color:white;
+padding-bottom: 10px;
+}
+.hd p{
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.insta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.insta  h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color:#0065c3;
+    padding-bottom: 10px;
+    text-align: center;
+    }
+    .social-img{
+        display: flex;
+        flex-wrap: wrap;justify-content: center;
+        align-items: center;
+    }
+    .img-hover-zoom {
+        height: 250px; /* [1.1] Set it as per your need */
+        overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+        width:250PX;
+      }
+      
+      /* [2] Transition property for smooth transformation of images */
+      .img-hover-zoom img {
+        transition: transform .5s ease;
+      }
+      
+      /* [3] Finally, transforming the image when container gets hovered */
+      .img-hover-zoom:hover img {
+        transform: scale(1.5);
+      }
+      /* Zoom-n-rotate Container */
+.img-hover-zoom--zoom-n-rotate img {
+    transition: transform .5s ease-in-out;
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--zoom-n-rotate:hover img {
+    transform: scale(2) rotate(25deg);
+  }
+  
+  footer{
+    display: flex;
+align-items: center;
+background-color: #0065c3;
+padding: 70px 50px 70px 50px;
+}
+footer div{
+    width: 20%;
+}
+footer div ul {
+    list-style-type: none;
+}
+footer div ul li a {
+    text-decoration: none;
+    color: white !important;
+    font-size: medium !important;
+    font-weight: bold !important;
+}
+.icons-img {
+    display: flex;
+
+    
+   margin-top: 10px;
+}
+.icons-img img{
+   width: 30px;
+   padding-right: 10px;
+   
+}
+@media only screen and (min-width: 650px) {
+    .my-img img{
+width: 100%;
+    }
+    .my-img-2 img{
+        display: none;
+            }
+}
+@media only screen and (max-width: 650px) {
+    .my-img-2 img{
+width: 100%;
+    }
+    .my-img img{
+        display: none;
+            }
+            .my-ul{
+
+                display: flex;
+                justify-content: center;
+                align-items: center ;
+            }
+            .btn-main{
+                display: flex;
+                justify-content: center;
+                align-items: center ;
+            }
+            .logo img{
+                width: 50px;
+            }
+}
+@media only screen and (max-width: 950px) {
+
+    .flxs-1 img {
+
+        width: 100%;
+    }
+
+    .improve-img {
+        position: absolute;
+        top: 20px;
+        left: 230px;
+
+    }
+
+    .improve-img img {
+        width: 100px;
+    }
+    .hd {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+  
+    .hd h1{
+        font-size: 35px;
+        font-weight: 900;
+        color:white;
+        }
+        .insta h1{
+            font-size: 35px;
+           
+        }
+        footer{
+            display: block;
+            padding: 10px;
+justify-content: center;
+align-items: center;
+text-align: center;
+        }
+        footer div{
+            width: 100%;
+        }
+        footer div ul  {
+            padding-left: 0rem;
+        }
+        .icons-img {
+            display: block
+        }
+}
+
+@media only screen and (max-width: 380px) {
+
+        .improve-img {
+            position: absolute;
+            top: 20px;
+            left: 130px;
+
+        }
+
+        .improve-img img {
+            width: 80px;
+        }
+    }
+
+@media only screen and (max-width: 380px) {
+
+        .improve-img {
+            position: absolute;
+            top: 40px;
+            left:200px;
+
+        }
+
+        .improve-img img {
+            width: 70px;
+        }
+    }
